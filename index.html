@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavana Protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        body {
+            background-color: rgb(180, 120, 180);
+            color: rgb(255, 255, 255);
+            font-family: cursive;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(97, 68, 97);
+            height: 90px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li a {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+
+        }
+
+        nav ul li a:hover {
+            color: burlywood;
+            font-size: 1.4rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+
+        }
+
+        /*if we given div inside div the width will be applied for both ,to aviod and spectify for first's div we given ">"*/
+        .firstsection>div {
+            width: 42%;
+        }
+
+        .leftsection {
+            width: 34px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 100px 0;
+        }
+
+        .rightsection>img {
+            height: 550px;
+        }
+
+        .purple {
+            color: rgb(28, 56, 66);
+        }
+
+        #element {
+            color: rgb(28, 56, 66);
+
+        }
+
+        a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .secondsection,
+        .thirdsection,
+        .forthsection {
+
+            font-size: 1rem;
+            margin: 0 0 0 90px;
+            color: rgb(19, 11, 19);
+            padding: 1px;
+
+        }
+
+        #skill,
+        #resume,
+        #biography {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 2rem;
+
+        }
+
+        .Biography {
+            font-family: sans-serif;
+            margin-left: 10%;
+            margin-right: 21%;
+        }
+
+        hr {
+            border: 0;
+            background: rgb(18, 17, 22);
+            height: 2px;
+            margin: 60px 84x;
+            width: 1350px;
+        }
+        .secondsection{
+    height: 50vh;
+}
+.thirdsection{
+    height: 50vh;
+}
+.forthsection{
+    height: 30vh;
+}
+        .thirdsection .box {
+            background-color: black;
+            width: 87vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .thirdsection .vertical {
+            height: 93px;
+            width: 2px;
+            background: rgb(27, 27, 25);
+            margin: 0 130px;
+            
+        }
+
+        .image-top {
+            width: 40px;
+            position: relative;
+            bottom: -95px;
+            left: -17px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 86px;
+            left: -21px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(14, 12, 12);
+            width: 150px;
+            font-size:27px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            left: -37px;
+            color: rgb(14, 12, 12);
+            width: 150px;
+            font-size:17px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Bhavana's Protfolio</div>
+            <div class="right">
+                <ul type="none">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#biography">Biography</a></li>
+                    <li><a href="#skill">Skills</a></li>
+               <!--     <li><a href="#resume">Projects</a></li>-->
+                    <li><a href="#resume">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <p style="font-size: 4rem;">Hi, I'm <span class="purple"> Alluri Bhavana </span></p> <br>
+                <p><span id="element" style="font-size: 2rem;"></span></p><br>
+
+                <p style="font-size: 1.2rem;">I am a 4th-year B.Tech student in St.Peter's Engineerin College,
+                    passionate about web development.</p>
+                <br>
+                <button class="button"><a href="mailto:alluribhavanabhavana.com">Hire me!</a></button> &nbsp;&nbsp;
+                <button class="button"><a href="">Let's Talk</a></button>
+
+
+            </div>
+            <div class="rightsection">
+                <img src="developer.jpg">
+            </div>
+        </section>
+
+        <section class="secondsection">
+            <hr style="color: rgb(27, 27, 25);">
+<br><br>
+
+            <div id="biography">
+                <center>Biography</center>
+            </div><br>
+            <div class="Biography" style="font-size: 18px;">
+                I am a 4th-year B.Tech student passionate about web development. I've been
+                building dynamic and responsive websites for the past few years, tackling various projects that have
+                taught me a lot. I love working with different people and learning from new experiences. I'm excited
+                to use my skills to create amazing web projects and grow as a developer.
+                <li><b>Name:</b> Alluri Bhavana </li>
+                <li> <b> Birthday: </b>23-Aug-2003 </li>
+                <li> <b> Age: </b>29 Years </li>
+                <li> <b>Adress:</b>Secunderabad,HYderabad,Telangana. </li>
+                <li> <b> Phone:</b> (+91)8297254597 </li>
+                <li> <b> Email:</b> alluribhavanabhavana.com </li>
+            </div>
+
+        </section>
+        <br>
+        <section class="thirdsection">
+
+            <div id="skill">
+                <center>Skills</center>
+            </div>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="javalogo.jpg">
+                    <div class="vertical-title">
+                        Java
+                    </div>
+                    <div class="vertical-desc">
+                        Intermediate level with java
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="htmllogo.png">
+                    <div class="vertical-title">
+                        HTML
+                    </div>
+                    <div class="vertical-desc">
+                        Intermediate level with Html
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="csslogo.png">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                    <div class="vertical-desc">
+                        Intermediate level with CSS
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="react.png">
+                    <div class="vertical-title">
+                        React
+                    </div>
+                    <div class="vertical-desc">
+                        Beginning level with react
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="logo-mysql-26336.png">
+                    <div class="vertical-title">
+                        MYSQL
+                    </div>
+                    <div class="vertical-desc">
+                        Intermediate level with Mysql
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            </div>
+        </section>
+        <br><br>
+        <section class="forthsection">
+            <div id="resume">
+                <center>My Resume</center>
+            </div><br><br>
+            <center><button><a href="https://drive.google.com/file/d/17rfow0yEGi75TZ9V1SoOqc_fUCmybBnu/view?usp=drive_link" target="_blank">My Resume</a></button>
+            </center>
+
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <footer style="background-color: rgb(59, 55, 59);">
+
+        <div class="social-icons">
+            <a href="https://github.com/Bhav57471" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/alluri-bhavana-357920273" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/alluribhavana_?igsh=MTg0NXM2bXpmYWZ0dQ==" class="fa fa-instagram"></a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
